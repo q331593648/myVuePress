@@ -5,7 +5,7 @@ module.exports = {
 	head: [
 		['link', {
 			rel: 'icon',
-			href: '/favicon.ico'
+			href: '/logo.jpg'
 		}]
 	],
 	repo: 'https://github.com/q331593648/myVuePress.git', // 添加 github 链接
