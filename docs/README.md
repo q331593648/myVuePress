@@ -39,4 +39,4 @@ npm run docs:bulid
 
 ## 每日一句
 
-  <test-1 />
+  <get-tip />
