@@ -18,10 +18,10 @@ module.exports = {
 				link: '/'
 			},
 			{
-				text: 'Api',
+				text: '小程序',
 				items: [
-          { text: 'Api1', link: '/Api/Api1' },
-          { text: 'Api2', link: '/Api/Api2' }
+          { text: '微信小程序', link: '/HybridApp/WeApp' },
+          { text: 'UniApp', link: '/HybridApp/UniApp' }
         ]
 			}, 
 			{
