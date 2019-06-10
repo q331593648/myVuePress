@@ -1,15 +1,10 @@
----
-sidebarDepth: 3
-sidebar: auto
----
+# 主题
+::: tip 主题组件受到相同的 浏览器的 API 访问限制. :::
 
-# Node.js
-  这里是Node.js文件的内容部分
-## Express
-  ExpressExpress
-### 基础使用
-ExpressExpressExpressExpress
-## Koa
-  KoaKoaKoa
-### 基础使用
-KoaKoaKoaKoaKoaKoa
+本栏的主要内容如下：
+
+使用主题
+开发主题
+主题的配置
+主题的继承
+默认主题配置

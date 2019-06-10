@@ -42,16 +42,30 @@ module.exports = {
 			}
 		],
 		//侧边栏分组
-		sidebar: [
-				['/Vue/', 'Vue'],
-				['/Vue/Vue-router', 'Vue-router'],
-				['/Vue/Axios', 'Axios'],
-				['/Vue/Vuex', 'Vuex'],
-				['/Vue/Vue-i18n', 'Vue-i18n']
-			],
+		sidebar: {
+			'/Vue/':getVueList(),
+			'/Node/':getNodeList(),
+		},
 		//搜索设置
 		search: true,
 		searchMaxSuggestions: 10,
 		lastUpdated: true,
 	}
+}
+
+function getVueList () {
+	return [
+			['/Vue/', 'Vue'],
+			['/Vue/Vue-router', 'Vue-router'],
+			['/Vue/Axios', 'Axios'],
+			['/Vue/Vuex', 'Vuex'],
+			['/Vue/Vue-i18n', 'Vue-i18n']
+	]
+}
+function getNodeList () {
+	return [
+			['/Node/', 'Node'],
+			['/Node/Express', 'Express'],
+			['/Node/Koa', 'Koa']
+	]
 }
