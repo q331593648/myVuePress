@@ -8,6 +8,11 @@ module.exports = {
 			href: '/logo.jpg'
 		}]
 	],
+	plugins: [
+		require('es6-promise').polyfill(),
+		require('isomorphic-fetch')
+		
+  ],
 	repo: 'https://github.com/q331593648/myVuePress.git', // 添加 github 链接
 	description: '个人记录学习',
 	themeConfig: {
@@ -45,6 +50,7 @@ module.exports = {
 		sidebar: {
 			'/Vue/':getVueList(),
 			'/Node/':getNodeList(),
+			'/JavaScript/':getJsList(),
 		},
 		//搜索设置
 		search: true,
@@ -67,5 +73,17 @@ function getNodeList () {
 			['/Node/', 'Node'],
 			['/Node/Express', 'Express'],
 			['/Node/Koa', 'Koa']
+	]
+}
+function getJsList () {
+	return [
+			['/JavaScript/','JS'],
+			['/JavaScript/Api', 'WebApi'],
+			['/JavaScript/Array', 'Array'],
+			['/JavaScript/Object', 'Object'],
+			['/JavaScript/Number', 'Number'],
+			['/JavaScript/Function', 'Function'],
+			['/JavaScript/RegExp', 'RegExp'],
+			['/JavaScript/Other', 'Other']
 	]
 }

@@ -13,5 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^0.14.11"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1"
   }
 }
