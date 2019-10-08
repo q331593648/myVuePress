@@ -6,8 +6,8 @@ heroImage: /home.gif
 actionText: 开始 →
 actionLink: /JavaScript/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。。
+- title: 部署到gitbook
+  details: 运行deploy.sh脚本
 - title: Vue驱动
   details: 享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
 - title: 高性能
