@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'bolg', // 设置网站标题
 	dest: './dist', // 设置输出目录
-	base: '/wy/', // 设置站点根路径
+	base: '/', // 设置站点根路径
 	head: [
 		['link', {
 			rel: 'icon',
@@ -79,11 +79,11 @@ function getJsList () {
 	return [
 			['/JavaScript/','JS'],
 			['/JavaScript/Api', 'WebApi'],
-			['/JavaScript/Array', 'Array'],
-			['/JavaScript/Object', 'Object'],
-			['/JavaScript/Number', 'Number'],
-			['/JavaScript/Function', 'Function'],
-			['/JavaScript/RegExp', 'RegExp'],
-			['/JavaScript/Other', 'Other']
+			['/JavaScript/Number', '数字和日期对象'],
+			['/JavaScript/String', '字符串'],
+			['/JavaScript/Array', '数组'],
+			['/JavaScript/Object', '对象'],
+			['/JavaScript/RegExp', '正则'],
+			['/JavaScript/Other', '其他']
 	]
 }
