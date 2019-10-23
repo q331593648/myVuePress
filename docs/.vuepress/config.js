@@ -22,29 +22,49 @@ module.exports = {
 				text: '首页',
 				link: '/'
 			},
-			{
-				text: '小程序',
-				items: [
-          { text: '微信小程序', link: '/HybridApp/WeApp' },
-          { text: 'UniApp', link: '/HybridApp/UniApp' }
-        ]
-			}, 
+		// 	{
+		// 		text: '小程序',
+		// 		items: [
+        //   { text: '微信小程序', link: '/HybridApp/WeApp' },
+        //   { text: 'UniApp', link: '/HybridApp/UniApp' }
+        // ]
+		// 	}, 
 			{
 				text: 'JavaScript',
 				link: '/JavaScript/'
 			},
+		// 	{
+		// 		text: 'Css',
+		// 		link: '/Css/'
+		// 	},
+		// 	{
+		// 		text: 'Vue',
+		// 		link: '/Vue/'
+		// 	},
+		// 	{
+		// 		text: 'Node',
+		// 		link: '/Node/'
+		// 	},
 			{
-				text: 'Css',
-				link: '/Css/'
+				text: '资料',
+				items:[
+					{ text: '常用链接', link: '/Links/' },
+					{ text: '常见问题', link: '/Problems/' },
+					{ text: '文章收藏', link: '/Collection/' },
+				]
 			},
 			{
-				text: 'Vue',
-				link: '/Vue/'
+				text: '代码规范',
+				link: '/CodeStyle/'
 			},
-			{
-				text: 'Node',
-				link: '/Node/'
-			},
+			// {
+			// 	text: '常见问题',
+			// 	link: '/Problems/'
+			// },
+			// {
+			// 	text: '文章收藏',
+			// 	link: '/Collection/'
+			// },
 			{
 				text: 'Github',
 				link: 'https://github.com/q331593648/myVuePress'
