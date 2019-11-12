@@ -18,16 +18,33 @@ sidebar: auto
 - [全方位彻底读懂<你不知道的JavaScript(上)>--一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 - [1.5万字概括ES6全部特性(看图就能记下，值得收藏)](https://juejin.im/post/5d9bf530518825427b27639d?utm_source=gold_browser_extension)
 - [写给新手前端的各种文件上传攻略，从小图片到大文件断点续传](https://juejin.im/post/5da14778f265da5bb628e590?utm_source=gold_browser_extension#heading-21)
+- [js语言中那些让你抓狂又容易混淆的概念(建议收藏)](https://juejin.im/post/5db16069f265da4cf210dc3e?utm_source=gold_browser_extension)
+- [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
+- [(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.im/post/5dac5d82e51d45249850cd20?utm_source=gold_browser_extension)
+- [【THE LAST TIME】一文吃透所有JS原型相关知识点](https://juejin.im/post/5dba456d518825721048bce9?utm_source=gold_browser_extension)
+- [JS 原生面经从初级到高级【近1.5W字】](https://juejin.im/post/5daeefc8e51d4524f007fb15?utm_source=gold_browser_extension)
+- [高性能渲染十万条数据(虚拟列表)](https://juejin.im/post/5db684ddf265da4d495c40e5?utm_source=gold_browser_extension)
+- [腾讯代码规范](http://alloyteam.github.io/CodeGuide/)
+- [如何更好的编写async函数](https://juejin.im/post/5af79983f265da0ba0633e04)
+- [源码推荐看法](https://www.zhihu.com/question/350289336/answer/873350617)
+- [各种源码实现，你想要的这里都有](https://juejin.im/post/5dc3894051882517a652dbd7?utm_source=gold_browser_extension#heading-16)
+- [可能是最全的 “文本溢出截断省略” 方案合集](https://juejin.im/post/5dc15b35f265da4d432a3d10?utm_source=gold_browser_extension)
+
+## ts
+- [TypeScript安利指南](https://juejin.im/post/5d8efeace51d45782b0c1bd6)
 
 ## css文章
 - [分享常用的scss函数，助你写出更简洁的代码](https://juejin.im/post/5d55397bf265da03cd0a7932)
 - [2019年了，你还不会CSS动画？](https://juejin.im/post/5cdd178ee51d456e811d279b)
 - [45个值得收藏的 CSS 形状](https://juejin.im/post/5cbd1f0ae51d456e5e035f45)
 - [剖析一些经典的CSS布局问题](https://juejin.im/post/5da282015188257d2a1c9e1d?utm_source=gold_browser_extension)
+- [你未必知道的49个CSS知识点](https://juejin.im/post/5d3eca78e51d4561cb5dde12)
+- [你未必知道的CSS知识点（第二季）](https://juejin.im/post/5d9ec8b0518825651b1dffa3?utm_source=gold_browser_extension)
 
 
 ## vue文章
 - [前端备忘单](https://www.jeffjade.com/2019/03/18/153-best-front-end-hacking-cheatsheets/)
+- [项目级，Vue-cli3+node多页面配置+性能优化](https://juejin.im/post/5db97b86f265da4cf406f529?utm_source=gold_browser_extension)
 - [深入剖析Vue源码 - Vue插槽，你想了解的都在这里!](https://juejin.im/post/5d676f97e51d4561ce5a1c85)
 - [手摸手，带你用vue撸后台 系列](https://juejin.im/post/59097cd7a22b9d0065fb61d2)- 
 - [Element-UI 技术揭秘](https://juejin.im/post/5d639e63e51d453b730b0f62)
@@ -46,7 +63,7 @@ sidebar: auto
 - [一篇文章学会 Vue 项目单元测试](https://zhuanlan.zhihu.com/p/48758013)
 - [2019 年如何搭建你的 Vue 项目](https://zhuanlan.zhihu.com/p/70752505)
 - [Vue 开发必须知道的 36 个技巧【近1W字】](https://juejin.im/post/5d9d386fe51d45784d3f8637?utm_source=gold_browser_extension)
-
+- [vue 开启history Apache 对应怎么配置](https://segmentfault.com/q/1010000010072383)
 
 ## react文章
 - [【React系列】手把手带你撸后台系统（架构篇）](https://juejin.im/post/5d9b5ddee51d45781b63b8f7)
@@ -98,12 +115,14 @@ sidebar: auto
 
 
 ## 其他插件文章
+- [Echarts数据可视化开发参数配置全解](https://blog.csdn.net/luanpeng825485697/article/details/77198858)
 - [vue中Axios的封装和API接口的管理](https://juejin.im/post/5b55c118f265da0f6f1aa354)
 - [Vue：一步一步解析Axios源码，从入门到原理](https://juejin.im/post/5d524ead6fb9a06aff5e668c)
 - [逐行解析Axios源码](https://juejin.im/post/5d501512518825159e3d7be6)
 - [axios 中文文档](https://juejin.im/post/5d5b6a1b6fb9a06af23875fa)
 - [VS Code 快速使用指南](https://juejin.im/post/5bc86b0b5188255ca00cc58f)
 - [十个常用插件](https://juejin.im/post/5d904712e51d45781e0f5dd0)
+- [Chrome Devtools 高级调试指南（新）](https://juejin.im/post/5d9eea84e51d4577eb5d8510)
 
 ## 算法文章
 - [前端该如何准备数据结构和算法？](https://juejin.im/post/5d5b307b5188253da24d3cd1)
@@ -119,3 +138,6 @@ sidebar: auto
 - [【译】面试 30 秒](https://juejin.im/post/5c9243f96fb9a070ce31ab46)
 - [前端面试题，写出一个快速找出两个数组不同值的函数](https://juejin.im/post/5c7c72a16fb9a049ba424cae)
 - [面试分享：两年工作经验](https://juejin.im/post/5d690c726fb9a06b155dd40d?utm_source=gold_browser_extension)
+- [web前端面试总结(自认为还算全面哈哈哈哈哈！！！）](https://juejin.im/post/5dafb263f265da5b9b80244d?utm_source=gold_browser_extension)
+- [HTTP状态码详解](https://juejin.im/post/5db7b2986fb9a02027084ff4)
+- [数据可视化库王者」D3.js 极速上手到Vue应用](https://juejin.im/post/5d1e074af265da1bca51f8ec#heading-13)

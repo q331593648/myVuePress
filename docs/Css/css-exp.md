@@ -55,33 +55,47 @@ button:active{
 ```
 ### 表格默认样式
 ```
-    table{
-        border: 1px solid #333;
-        border-collapse: collapse;
-        tr{
-            &:last-child{
-                border-right-width: 0;
-            }
-        }
-        thead{
-            th{
-                border-right: 1px solid #333;
-            }
-        }
-        tbody{
-            tr{
-                &:nth-of-type(odd){
-                        background: red;
-                }
-                &:nth-of-type(even){
-                    background: green;
-                }
-                td{
-                    border-top: 1px solid #333;
-                    border-right: 1px solid #333;
-                }
-            }
-            
-        }
-    }
+html:
+<table>
+  <colgroup style="width:120px" span="2"></colgroup>
+  <colgroup ></colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>2489604</td>
+    <td>My first CSS</td>
+    <td>$47</td>
+  </tr>
+</table>
+css:
+table,tr,th,td{
+    border: 1px solid #d6d6d6;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #555;
+    font-size: 14px;
+    table-layout: fixed;
+}
+th,td{
+    padding: 6px 12px;
+}
+tr:nth-child(2n+1){
+    background: aliceblue;
+}
+tr{
+    transition: background-color 1s;
+}
+tr:hover{
+    background: lightpink;
+}
 ```
